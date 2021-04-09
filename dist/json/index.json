@@ -1,0 +1,72 @@
+{
+    "activeName": "热门活动",
+    "activeValue": [
+        {
+            "id": "1",
+            "value": "index.html",
+            "img": "../img/active01.jpg"
+        },
+        {
+            "id": "2",
+            "value": "index.html",
+            "img": "../img/active02.jpg"
+        },
+        {
+            "id": "3",
+            "value": "index.html",
+            "img": "../img/active03.jpg"
+        },
+        {
+            "id": "4",
+            "value": "index.html",
+            "img": "../img/active04.jpg"
+        }
+    ],
+    "protectName": "安全驾驶",
+    "protectValue": [
+        {
+            "id": "1",
+            "value": "#",
+            "proimg": "../img/protect.jpg"
+        }
+    ],
+    "moreName": "查看更多",
+    "moreValue": [
+        {
+            "id": "1",
+            "value": "#",
+            "moreimg": "../img/more.jpg"
+        }
+    ],
+    "pannicName": "抢购商品",
+    "pannicValue": [
+        {
+            "id": "1",
+            "src": "#",
+            "pannicimg": "../img/pannic01.jpg",
+            "pannicvalue": "￥100",
+            "pannicname": "360行车记录仪"
+        },
+        {
+            "id": "2",
+            "src": "#",
+            "pannicimg": "../img/pannic02.jpg",
+            "pannicvalue": "￥39",
+            "pannicname": "360手电筒"
+        },
+        {
+            "id": "3",
+            "src": "details.html",
+            "pannicimg": "../img/pannic03.jpg",
+            "pannicvalue": "￥129",
+            "pannicname": "360路由器"
+        },
+        {
+            "id": "4",
+            "src": "#",
+            "pannicimg": "../img/pannic04.jpg",
+            "pannicvalue": "￥39",
+            "pannicname": "360洗手液"
+        }
+    ]
+}

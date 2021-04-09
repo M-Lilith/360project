@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-weight: normal;
+	font-size: 12px;
+	font-family:"PingFang SC","Microsoft YaHei","Helvetica Neue",Arial,"PingFang SC","Microsoft YaHei","Helvetica Neue",Arial,"微软雅黑",SimSun,sans-serif,SimSun,sans-serif;
+	color: #111;
+	text-decoration: none;
+}
+/*-----通用标签样式-----*/
+ul,
+li {
+	list-style-image: none;
+	list-style-type: none;
+}
+
+img {
+	border: none;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+	font-family:"PingFang SC","Microsoft YaHei","Helvetica Neue",Arial,"PingFang SC","Microsoft YaHei","Helvetica Neue",Arial,"微软雅黑",SimSun,sans-serif,SimSun,sans-serif;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix {
+	display: inline-table;
+}
+
+*html .clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	display: block;
+}
+
+*+html .clearfix {
+	min-height: 1%;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*----通用----*/
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+.relative {
+	position: relative;
+}
+
+.absolute {
+	position: absolute;
+}
+.hide{
+	display: none;
+}
+.show{
+	display: block;
+}

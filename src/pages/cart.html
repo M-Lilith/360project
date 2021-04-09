@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>购物车</title>
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		.cartList {
+			width: 1205px;
+		}
+
+		ul {
+			list-style: none;
+		}
+
+		.cartHead {
+			border: 1px solid black;
+			height: 50px;
+		}
+
+		.cartHead li {
+			width: 200px;
+			height: 50px;
+			float: left;
+			font: 32px/50px "楷体";
+			text-align: center;
+		}
+
+		.goodInfo {
+			border: 1px solid black;
+			border-top: none;
+			height: 50px;
+		}
+
+		.goodInfo li {
+			float: left;
+			width: 200px;
+			height: 50px;
+			float: left;
+			font: 24px/50px "";
+			text-align: center;
+		}
+
+		.goodInfo li input {
+			width: 30px;
+			text-align: center;
+		}
+
+		.goodInfo li.num a {
+			display: inline-block;
+			width: 10px;
+			height: 20px;
+			font: 12px/20px "";
+			background: #ddd;
+			text-decoration: none;
+		}
+
+		.goodInfo li img {
+			width: 40px;
+			height: 40px;
+			margin-top: 5px;
+			text-align: center;
+		}
+
+		.blank {
+			height: 50px;
+			font: 32px/50px "";
+			text-align: center;
+			border: 1px solid black;
+			border-top: none;
+			display: none;
+		}
+	</style>
+	<link rel="stylesheet" href="../css/index.min.css">
+	<link rel="stylesheet" href="../css/cart.min.css">
+</head>
+
+<body>
+	<!-- 帮助中心 -->
+	<div class="helpback">
+		<div class="help">
+			<a href="https://mall.360.cn/help">帮助中心</a>
+			<a href="#">收藏</a>
+			<a href="https://www.360.cn/">360官网</a>
+			<a href="https://life.360.cn/">360智慧生活</a>
+			<span><a href="login.html">登录</a></span>
+		</div>
+	</div>
+	<!-- 360商城 -->
+	<div class="header-nav">
+		<div class="header-box">
+			<a href="index.html"><i></i></a>
+			<a href="#">新品推荐</a>
+			<a href="#">热销榜单</a>
+			<a href="#">积分兑换</a>
+			<!-- 搜索 -->
+			<div class="search-box">
+				<div class="search-bar">
+					<input type="text">
+					<i></i>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="cartList">
+		<ul class="cartHead">
+			<li>缩略图</li>
+			<li>品名</li>
+			<li>单价</li>
+			<li>数量</li>
+			<li>小计</li>
+			<li>操作</li>
+		</ul>
+
+		<div class="blank">
+			360不渡穷逼~~
+		</div>
+	</div>
+	<script src="../js/cart.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+.registor{
+    width: 360px;
+    height: 360px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    h2{
+        text-align: center;
+        text-indent: -65px;
+    }
+    #uname,#upwd{
+        width: 278px;
+        box-sizing: content-box;
+        padding: 10px;border-radius: 2px;
+        border: 1px solid #ddd;
+        outline: none;
+    }
+    #sub{
+        width: 298px;
+        height: 42px;
+        text-align: center;
+        line-height: 42px;
+        background-color: #36b447;
+        outline: none;
+        border-radius: 2px;
+        border-color: #36b447;
+        color: white;
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    #go{
+        cursor: pointer;
+        color: #6f6f6f;
+    }
+    #go:hover{
+        color: #36b447
+    }
+}

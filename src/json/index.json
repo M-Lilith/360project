@@ -1,0 +1,33 @@
+{
+    "activeName": "热门活动",
+    "activeValue": [
+        {
+            "id": "1",
+            "value": "index.html",
+            "img": "../img/active01.jpg"
+        },
+        {
+            "id": "2",
+            "value": "index.html",
+            "img": "../img/active02.jpg"
+        },
+        {
+            "id": "3",
+            "value": "index.html",
+            "img": "../img/active03.jpg"
+        },
+        {
+            "id": "4",
+            "value": "index.html",
+            "img": "../img/active04.jpg"
+        }
+    ],
+    "protectName": "安全驾驶",
+    "protectValue": [
+        {
+            "id": "1",
+            "value": "#",
+            "img": "../img/protect.jpg"
+        }
+    ]
+}

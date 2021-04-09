@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "gulp-cssnano": "^2.1.3"
+  }
+}
